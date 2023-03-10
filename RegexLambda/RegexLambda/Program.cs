@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace RegexLambda
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            RegistrationLambda userlambda = new RegistrationLambda();
+            userlambda.FirstNames("Prince");
+            userlambda.LastNames("Kotadiya");
+            Console.ReadLine(); 
         }
     }
 }

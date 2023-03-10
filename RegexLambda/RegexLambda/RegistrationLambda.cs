@@ -9,20 +9,31 @@ namespace RegexLambda
     public class RegistrationLambda
     {
         List<ModalUserClass> usermodel = new List<ModalUserClass>();
-        public Lambda()
+        public RegistrationLambda()
         {
             ModalUserClass modelUserClass = new ModalUserClass();
             usermodel.Add(modelUserClass);
         }
-        public void CheckFirstNmae(string firstname)
+        public void FirstNames(string firstname)
         {
             if (usermodel.Any(x => x.FirstName.IsMatch(firstname)))
             {
-                Console.WriteLine("It is A Valid Pattern");
+                Console.WriteLine("Valid Pattern");
             }
             else
             {
-                Console.WriteLine("Not a VAlid Pattern");
+                Console.WriteLine("Invalid Pattern");
+            }
+        }
+        public void LastNames(string lastname)
+        {
+            if (usermodel.Any(x => x.LastName.IsMatch(lastname)))
+            {
+                Console.WriteLine(" Valid Pattern");
+            }
+            else
+            {
+                Console.WriteLine(" Invalid Pattern");
             }
         }
     }
