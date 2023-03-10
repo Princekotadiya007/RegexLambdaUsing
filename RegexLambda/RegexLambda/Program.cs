@@ -18,6 +18,7 @@ namespace RegexLambda
             userlambda.Passwords1("Princes7");
             userlambda.Passwords2("PRINCES7");
             userlambda.Passwords3("Princes7");
+            userlambda.Passwords4("Prince07@");
             Console.ReadLine(); 
         }
     }

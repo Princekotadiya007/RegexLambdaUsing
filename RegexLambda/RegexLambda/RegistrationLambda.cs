@@ -91,5 +91,16 @@ namespace RegexLambda
                 Console.WriteLine(" Invalid Pattern");
             }
         }
+        public void Passwords4(string password4)
+        {
+            if (usermodel.Any(x => x.Password4.IsMatch(password4)))
+            {
+                Console.WriteLine(" Valid Pattern");
+            }
+            else
+            {
+                Console.WriteLine(" Invalid Pattern");
+            }
+        }
     }
 }
