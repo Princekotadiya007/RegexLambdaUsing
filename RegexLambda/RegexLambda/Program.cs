@@ -15,7 +15,8 @@ namespace RegexLambda
             userlambda.LastNames("Kotadiya");
             userlambda.Email("abc.xyz@prince.co.in");
             userlambda.PhoneNumbers("91 6352129268");
-            userlambda.Password("Princes7");
+            userlambda.Passwords1("Princes7");
+            userlambda.Passwords2("PRINCES7");
             Console.ReadLine(); 
         }
     }

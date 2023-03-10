@@ -47,5 +47,38 @@ namespace RegexLambda
                 Console.WriteLine(" Invalid Pattern");
             }
         }
+        public void PhoneNumbers(string phone)
+        {
+            if (usermodel.Any(x => x.PhoneNumber.IsMatch(phone)))
+            {
+                Console.WriteLine(" Valid Pattern");
+            }
+            else
+            {
+                Console.WriteLine(" Invalid Pattern");
+            }
+        }
+        public void Passwords1(string password)
+        {
+            if (usermodel.Any(x => x.Password1.IsMatch(password)))
+            {
+                Console.WriteLine(" Valid Pattern");
+            }
+            else
+            {
+                Console.WriteLine(" Invalid Pattern");
+            }
+        }
+        public void Passwords2(string password2)
+        {
+            if (usermodel.Any(x => x.Password2.IsMatch(password2)))
+            {
+                Console.WriteLine(" Valid Pattern");
+            }
+            else
+            {
+                Console.WriteLine(" Invalid Pattern");
+            }
+        }
     }
 }
