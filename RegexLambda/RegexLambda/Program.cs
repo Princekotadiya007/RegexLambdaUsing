@@ -19,6 +19,7 @@ namespace RegexLambda
             userlambda.Passwords2("PRINCES7");
             userlambda.Passwords3("Princes7");
             userlambda.Passwords4("Prince07@");
+            userlambda.SimpelEmails("abc@yahoo.com");
             Console.ReadLine(); 
         }
     }
