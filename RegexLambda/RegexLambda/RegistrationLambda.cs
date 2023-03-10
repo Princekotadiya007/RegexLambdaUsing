@@ -36,5 +36,16 @@ namespace RegexLambda
                 Console.WriteLine(" Invalid Pattern");
             }
         }
+        public void Email(string email)
+        {
+            if (usermodel.Any(x => x.Email.IsMatch(email)))
+            {
+                Console.WriteLine(" Valid Pattern");
+            }
+            else
+            {
+                Console.WriteLine(" Invalid Pattern");
+            }
+        }
     }
 }

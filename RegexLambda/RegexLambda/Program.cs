@@ -13,6 +13,7 @@ namespace RegexLambda
             RegistrationLambda userlambda = new RegistrationLambda();
             userlambda.FirstNames("Prince");
             userlambda.LastNames("Kotadiya");
+            userlambda.Email("abc.xyz@prince.co.in");
             Console.ReadLine(); 
         }
     }
