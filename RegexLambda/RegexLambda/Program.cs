@@ -17,6 +17,7 @@ namespace RegexLambda
             userlambda.PhoneNumbers("91 6352129268");
             userlambda.Passwords1("Princes7");
             userlambda.Passwords2("PRINCES7");
+            userlambda.Passwords3("Princes7");
             Console.ReadLine(); 
         }
     }

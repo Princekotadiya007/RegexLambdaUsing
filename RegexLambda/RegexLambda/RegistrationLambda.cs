@@ -80,5 +80,16 @@ namespace RegexLambda
                 Console.WriteLine(" Invalid Pattern");
             }
         }
+        public void Passwords3(string password3)
+        {
+            if (usermodel.Any(x => x.Password3.IsMatch(password3)))
+            {
+                Console.WriteLine(" Valid Pattern");
+            }
+            else
+            {
+                Console.WriteLine(" Invalid Pattern");
+            }
+        }
     }
 }
